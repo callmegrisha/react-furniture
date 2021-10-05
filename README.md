@@ -21,3 +21,8 @@
 - Slider
 - Preloading Items with React Skeleton
 - Catalog Item Search
+
+### Project Screenshots
+
+![](https://github.com/callmegrisha/react-furniture/blob/master/public/img/1.jpg)
+![](https://github.com/callmegrisha/react-furniture/blob/master/public/img/2.jpg)
