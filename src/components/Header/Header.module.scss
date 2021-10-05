@@ -1,0 +1,132 @@
+.headerTop {
+  padding: 15px 0;
+  background-color: var(--color-purple-heart);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--color-seashell);
+}
+
+.headerTopInner,
+.headerTopLeft,
+.headerTopRight,
+.headerNavInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTopLeft {
+  max-width: 400px;
+  width: 100%;
+
+  a {
+    position: relative;
+    padding-left: 26px;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      background-repeat: no-repeat;
+      width: 16px;
+      height: 16px;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.headerTopRight {
+  max-width: 130px;
+  width: 100%;
+}
+
+.headerLinkMail {
+  &::before {
+    background-image: url('/assets/img/icons/letter.svg');
+  }
+}
+
+.headerLinkNumber {
+  &::before {
+    background-image: url('/assets/img/icons/phone.svg');
+  }
+}
+
+.headerLinkWishlist {
+  position: relative;
+  padding-right: 21px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('/assets/img/icons/wishlist.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.headerCart {
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.headerNav {
+  padding: 25px 0;
+  color: var(--color-blue-zodiac);
+}
+
+.headerLogo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.headerMenu {
+  display: flex;
+  align-items: center;
+}
+
+.headerMenuItem {
+  &:not(:last-child) {
+    margin-right: 35px;
+  }
+}
+
+.headerMenuLink {
+  transition: color 0.3s ease-in-out;
+  font-weight: 700;
+  &:hover {
+    color: var(--color-wild-strawberry);
+  }
+}
+
+.headerSearch {
+  display: flex;
+  align-items: center;
+
+  input {
+    border: 2px solid var(--color-athens-gray);
+    padding: 10px 20px;
+  }
+
+  button {
+    padding: 8px 14px;
+    background-color: var(--color-wild-strawberry);
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: darken(#fb2e86, 10);
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

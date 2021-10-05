@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.paginationItem {
+  all: unset;
+  color: var(--color-white);
+  background-color: var(--color-wild-strawberry);
+  font-size: 16px;
+  line-height: 1;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.paginationItemCurrent {
+  transition: background-color 0.3s ease-in-out;
+  background-color: darken(#fb2e86, 20);
+}

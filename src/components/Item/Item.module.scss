@@ -1,0 +1,89 @@
+.card {
+  max-width: 270px;
+  width: 100%;
+  min-height: 350px;
+  padding: 11px 11px 32px;
+  border: 1px solid var(--color-concrete);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s ease-in-out;
+  filter: drop-shadow(0px 8px 40px rgba(49, 32, 138, 0.05));
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--color-deep-koamaru);
+
+  &:hover {
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+
+    .cardAction {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.cardImg {
+  position: relative;
+  padding: 35px;
+  background-color: var(--color-athens-gray);
+  margin-bottom: 18px;
+
+  img {
+    width: 171px;
+    height: 171px;
+    object-fit: contain;
+  }
+}
+
+.cardAction {
+  position: absolute;
+  left: 5px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.cardActionButton {
+  all: unset;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-white);
+  }
+
+  svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.cardPrice {
+  display: flex;
+  font-size: 14px;
+  margin-top: auto;
+
+  span:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.cardOldPrice {
+  color: var(--color-wild-strawberry);
+  text-decoration: line-through;
+}

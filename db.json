@@ -1,0 +1,188 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "imgUrl": "img/items/1.png",
+      "name": "Vel elit euismod",
+      "price": "26.00"
+    },
+    {
+      "id": 2,
+      "imgUrl": "img/items/2.png",
+      "name": "Ultricies condimentum imperdiet",
+      "price": "50.00"
+    },
+    {
+      "id": 3,
+      "imgUrl": "img/items/3.png",
+      "name": "Vitae suspendisse sed",
+      "price": "38.00"
+    },
+    {
+      "id": 4,
+      "imgUrl": "img/items/4.png",
+      "name": "Sed at fermentum",
+      "price": "112.00"
+    },
+    {
+      "id": 5,
+      "imgUrl": "img/items/5.png",
+      "name": "Fusce pellentesque at",
+      "price": "54.00"
+    },
+    {
+      "id": 6,
+      "imgUrl": "img/items/6.png",
+      "name": "Vestibulum magna laoreet",
+      "price": "87.00"
+    },
+    {
+      "id": 7,
+      "imgUrl": "img/items/7.png",
+      "name": "Sollicitudin amet orci",
+      "price": "900.00"
+    },
+    {
+      "id": 8,
+      "imgUrl": "img/items/8.png",
+      "name": "Ultrices mauris sit",
+      "price": "45.00"
+    },
+    {
+      "id": 9,
+      "imgUrl": "img/items/9.png",
+      "name": "Pellentesque condimentum ac",
+      "price": "62.00"
+    },
+    {
+      "id": 10,
+      "imgUrl": "img/items/10.png",
+      "name": "Cras scelerisque velit",
+      "price": "10.00"
+    },
+    {
+      "id": 11,
+      "imgUrl": "img/items/11.png",
+      "name": "Lectus vulputate faucibus",
+      "price": "123.00"
+    },
+    {
+      "id": 12,
+      "imgUrl": "img/items/12.png",
+      "name": "Purus risus, ut",
+      "price": "400.00"
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "id": 2,
+          "imgUrl": "img/items/2.png",
+          "name": "Ultricies condimentum imperdiet",
+          "price": "50.00",
+          "itemDiscount": 47.5,
+          "quantity": 2
+        },
+        {
+          "id": 1,
+          "imgUrl": "img/items/1.png",
+          "name": "Vel elit euismod",
+          "price": "26.00",
+          "itemDiscount": 24.7,
+          "quantity": 2
+        },
+        {
+          "id": 3,
+          "imgUrl": "img/items/3.png",
+          "name": "Vitae suspendisse sed",
+          "price": "38.00",
+          "itemDiscount": 36.1,
+          "quantity": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "id": 1,
+          "imgUrl": "img/items/1.png",
+          "name": "Vel elit euismod",
+          "price": "26.00",
+          "itemDiscount": 24.7,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "imgUrl": "img/items/2.png",
+          "name": "Ultricies condimentum imperdiet",
+          "price": "50.00",
+          "itemDiscount": 47.5,
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "id": 1,
+          "imgUrl": "img/items/1.png",
+          "name": "Vel elit euismod",
+          "price": "26.00",
+          "itemDiscount": 24.7,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "imgUrl": "img/items/2.png",
+          "name": "Ultricies condimentum imperdiet",
+          "price": "50.00",
+          "itemDiscount": 47.5,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "imgUrl": "img/items/3.png",
+          "name": "Vitae suspendisse sed",
+          "price": "38.00",
+          "itemDiscount": 36.1,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "imgUrl": "img/items/4.png",
+          "name": "Sed at fermentum",
+          "price": "112.00",
+          "itemDiscount": 106.4,
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "id": 1,
+          "imgUrl": "img/items/1.png",
+          "name": "Vel elit euismod",
+          "price": "26.00",
+          "itemDiscount": 24.7,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "imgUrl": "img/items/2.png",
+          "name": "Ultricies condimentum imperdiet",
+          "price": "50.00",
+          "itemDiscount": 47.5,
+          "quantity": 1
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "cart": [],
+  "wishlist": []
+}

@@ -1,0 +1,150 @@
+.cartInner {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 0;
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--color-biscay);
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.cartItems {
+  max-width: 720px;
+  width: 100%;
+}
+
+.cartItemsTitle {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 50px;
+
+  h3 {
+    width: 100%;
+  }
+
+  .product {
+    max-width: 299px;
+  }
+
+  .price {
+    max-width: 152px;
+  }
+
+  .quantity {
+    max-width: 208px;
+  }
+
+  .total {
+    max-width: 59px;
+  }
+}
+
+.cartEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  width: 100%;
+  padding: 50px 0;
+
+  img {
+    width: 87px;
+    height: 87px;
+    object-fit: contain;
+    margin-bottom: 22px;
+  }
+
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-blue-zodiac) !important;
+    margin-bottom: 28px;
+  }
+
+  span {
+    font-family: 'Lato', sans-serif;
+    color: var(--color-manatee);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .cartEmptyBtn {
+    padding: 15px 36px;
+    background-color: var(--color-rose);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.5s ease-in-out;
+    outline: transparent;
+
+    &:focus {
+      background-color: darken(#ff1788, 5);
+    }
+
+    &:hover {
+      background-color: darken(#ff1788, 7);
+    }
+
+    &:active {
+      background-color: darken(#ff1788, 10);
+    }
+  }
+}
+
+.cartTotal {
+  max-width: 371px;
+  width: 100%;
+  padding: 35px 25px;
+  background-color: var(--color-white-lilac);
+  align-self: flex-start;
+}
+
+.cartTotalPrice {
+  padding-bottom: 13px;
+  border-bottom: 2px solid var(--color-link-water);
+}
+
+.cartTotalSendOrder {
+  all: unset;
+  padding: 12px 0;
+  width: 100%;
+  background-color: var(--color-mountain-meadow);
+  color: var(--color-white);
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:focus {
+    background-color: darken(#19d16f, 3);
+  }
+
+  &:hover {
+    background-color: darken(#19d16f, 5);
+  }
+
+  &:active {
+    background-color: darken(#19d16f, 8);
+  }
+}
+
+.cartTotalPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 0;
+
+  span {
+    color: var(--color-biscay);
+  }
+}
