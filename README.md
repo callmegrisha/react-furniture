@@ -4,6 +4,7 @@
 
 - React
 - React Hooks
+- Json-server
 - Axios
 - SCSS / CSS-modules
 - React Content Loader (React Skeleton)
@@ -19,3 +20,4 @@
 - Routing
 - Slider
 - Preloading Items with React Skeleton
+- Catalog Item Search
